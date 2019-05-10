@@ -102,7 +102,7 @@ With:
 
 ```console
 az aks create --node-vm-size <AGENT_SIZE> --resource-group <RG> --name <NAME>
---node-count <AGENT_COUNT> --kubernetes-version 1.12.5 --location <LOCATION> --generate-ssh-keys
+--node-count <AGENT_COUNT> --kubernetes-version 1.13.5 --location <LOCATION> --generate-ssh-keys
 ```
 
 > Note : The kubernetes verion could change depending where you are deploying your cluster. You can get more informations running the `az aks get-versions` command.
